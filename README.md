@@ -1,4 +1,4 @@
-Folder Structure
+############# Folder Structure
 
 aws-network-firewall-terraform/
 ├── main.tf
