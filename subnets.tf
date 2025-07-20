@@ -1,4 +1,4 @@
-resource "aws_subnet" "publi" {
+resource "aws_subnet" "public" {
   count = 3
   vpc_id     = aws_vpc.main.id
   cidr_block = var.public_subnet_cidrs[count.index]
