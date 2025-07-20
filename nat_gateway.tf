@@ -1,4 +1,4 @@
-resource "aws_eip" "na" {
+resource "aws_eip" "nat" {
   domain = "vpc"
 }
 
