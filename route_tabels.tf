@@ -26,7 +26,7 @@ resource "aws_route_table" "private" {
   }
 
   tags = {
-    Name = "private-r"
+    Name = "private-rt"
   }
 }
 
