@@ -1,4 +1,14 @@
-############# Folder Structure
+This project sets up a secure and scalable AWS infrastructure using Terraform, including:
+
+A VPC across 3 Availability Zones (AZs)
+
+Public & Private subnets
+
+Internet and NAT Gateway setup
+
+AWS Network Firewall with stateless and stateful rules
+
+############# Folder Structure ##############
 
 aws-network-firewall-terraform/
 ├── main.tf
