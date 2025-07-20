@@ -8,25 +8,27 @@ Internet and NAT Gateway setup
 
 AWS Network Firewall with stateless and stateful rules
 
-############# Folder Structure ##############
 
-aws-network-firewall-terraform/
-├── main.tf
-├── variables.tf
-├── outputs.tf
-├── firewall_rules.tf
-├── vpc.tf
-├── nat_gateway.tf
-├── network_firewall.tf
-├── terraform.tfvars
-└── README.md
+📁 Project Structure
+
+├── README.md                  # Documentation
+├── provider.tf                # AWS Provider configuration
+├── variables.tf               # Input variables
+├── vpc.tf                     # VPC and Internet Gateway
+├── subnets.tf                 # Public and private subnets
+├── nat_gateway.tf             # NAT Gateway setup
+├── route_tabels.tf            # Route tables for subnets
+├── network_firewall.tf        # Network Firewall rules and deployment
+├── output.tf                  # Outputs like VPC ID, firewall name
+├── terraform.tfstate          # Terraform state file (auto-generated)
+
 
 
 🛠️ Prerequisites
 Make sure the following are installed and configured:
 
 Terraform (v1.0 or above)
-👉 Download Terraform
+👉 Download Terraform  : https://developer.hashicorp.com/terraform/install#windows
 
 AWS CLI
 👉 Install AWS CLI
